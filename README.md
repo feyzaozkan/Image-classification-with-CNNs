@@ -24,21 +24,24 @@ In each file;
 	After fetching data, automatically train,validation,and test directories are created to store data properly.
 
 	These public variables should be updated according to needs.
-	num_images_per_folder = 70  
+	num_images_per_class = 70	
+	num_train_per_class = 50	
+	num_val_per_class = 10
+	img_size = 64
 	batch_size = 8
 	num_classes = 8
 	learning_rate = 0.0001
-	num_epochs = 100
+	num_epoch = 30
+
 
 	There is a class for CNN model in PART1_1.ipynb and PART1_2.ipynb to build from scratch. 
 	
-	def train_validate(model) function is used to train and validate model and get est_accuracy,best_model,	train_accuracy_list,val_accuracy_list,train_loss_list,val_loss_list. That is also used in three files.
+	def train_val(model) and def train_one_epoch(model) function are used for training & validation model and to get list of train_loss, train_acc, val_loss , val_acc and  best_models[-1] . These functions are also used in three files.
 
-	The first and second files contain def plot(list1,list2,title,name,type) function. This function plots the training and validation results using lists coming from train_validate(model). Also, it saves the plots in current directory with the "name" argument. "type" is written to y-axis.
+	The first and second files contain def plot(list1,list2,title,name,type) function. This function plots the training and validation results using lists coming from train_val(model). Also, it saves the plots in current directory with the "name" argument. "type" is written to y-axis.
 
 	
 	
-
 
 
 
