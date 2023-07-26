@@ -1,5 +1,11 @@
 # Image-classification-with-CNNs
-This project consists of 3 different .ipynb files which are PART1_1.ipynb, PART1_1.ipynb, PART2.ipynb.
+
+Image classification is one of the fundamental task in the field of computer vision and there are many techniques to classify images properly,one of them is CNN.
+
+The aim of this assignment, understanding the architecture of Convolutional Neural Networks by building a model from scratch and applying that model to given images to classify them properly by using a deep learning frame PyTorch.
+
+
+The project contains 3 different .ipynb files which are PART1_1.ipynb, PART1_1.ipynb, PART2.ipynb.
 
 -PART1_1.ipynb contains the CNN model without residual connections.
 
@@ -8,7 +14,7 @@ This project consists of 3 different .ipynb files which are PART1_1.ipynb, PART1
 -PART2.ipynb contains the Res-Net18 model and different fine-tuning processes.
 
 
-Before starting implementation, dataset files should be added to google drive account.
+Before starting implementation, dataset files should be uploaded to google drive account.
 
 All files can be implemented in Google colab just by running cells one by one. 
 
